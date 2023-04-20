@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 
 const Main = () => {
     return (
-        <div>
+        <div className='w-100 border'>
             <Header></Header>
             <Outlet></Outlet>
         </div>
